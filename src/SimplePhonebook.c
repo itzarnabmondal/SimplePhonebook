@@ -278,16 +278,6 @@ void deletefun() {
 }
 void exitfun() {
   system("cls");
-  gotoxy(31, 4);
-  printf("\xDB\xDB\xDB\xDB TEAM MEMBERS \xDB\xDB\xDB\xDB");
-  gotoxy(31, 6);
-  printf("\xDB info GURUNG.");
-  gotoxy(31, 8);
-  printf("\xDB BEEKASH BASAULA.");
-  gotoxy(31, 10);
-  printf("\xDB SAMUNDRA POUDEL.");
-  gotoxy(31, 12);
-  printf("\xDB SAGAR DHAKAL.");
 }
 void password(void) {
   char passwords[20] = {
